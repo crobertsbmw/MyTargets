@@ -110,7 +110,7 @@ class MultiRoundHandicapCalculatorTest {
         var longDistance = Dimension(70f, Dimension.Unit.METER)
         var longDiameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var longTarget = Target(WAFull.ID, 0, longDiameter)
-        var longScore = Score(685, 720, 72)
+        var longScore = Score(685, 720)
         var longRound = Round(0, 0, 0, 6, 12, longDistance, "70m", longTarget, longScore)
 
         var arrowDiameter = Dimension(0.714f, Dimension.Unit.CENTIMETER)
@@ -131,13 +131,13 @@ class MultiRoundHandicapCalculatorTest {
         var longDistance = Dimension(25f, Dimension.Unit.METER)
         var longDiameter = Dimension(60f, Dimension.Unit.CENTIMETER)
         var longTarget = Target(WAFull.ID, 0, longDiameter)
-        var longScore = Score(590, 600, 60)
+        var longScore = Score(590, 600)
         var longRound = Round(0, 0, 0, 3, 20, longDistance, "100y", longTarget, longScore)
 
         var shortDistance = Dimension(18f, Dimension.Unit.METER)
         var shortDiameter = Dimension(40f, Dimension.Unit.CENTIMETER)
         var shortTarget = Target(WAFull.ID, 0, shortDiameter)
-        var shortScore = Score(591, 600, 60)
+        var shortScore = Score(591, 600)
         var shortRound = Round(0, 0, 0, 3, 20, shortDistance, "60y", shortTarget, shortScore)
 
         var arrowDiameter = Dimension(0.714f, Dimension.Unit.CENTIMETER)
@@ -169,19 +169,19 @@ class MultiRoundHandicapCalculatorTest {
         var longDistance = Dimension(100f, Dimension.Unit.YARDS)
         var longDiameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var longTarget = Target(WAFull.ID, 5, longDiameter)
-        var longScore = Score(504, 648, 72)
+        var longScore = Score(504, 648)
         var longRound = Round(0, 0, 0, 6, 12, longDistance, "100y", longTarget, longScore)
 
         var midDistance = Dimension(80f, Dimension.Unit.YARDS)
         var midDiameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var midTarget = Target(WAFull.ID, 5, midDiameter)
-        var midScore = Score(336, 432, 48)
+        var midScore = Score(336, 432)
         var midRound = Round(0, 0, 0, 6, 8, midDistance, "80y", midTarget, midScore)
 
         var shortDistance = Dimension(60f, Dimension.Unit.YARDS)
         var shortDiameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var shortTarget = Target(WAFull.ID, 5, shortDiameter)
-        var shortScore = Score(168, 216, 24)
+        var shortScore = Score(168, 216)
         var shortRound = Round(0, 0, 0, 6, 4, shortDistance, "60y", shortTarget, shortScore)
 
         var arrowDiameter = Dimension(0.714f, Dimension.Unit.CENTIMETER)

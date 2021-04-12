@@ -28,7 +28,7 @@ import kotlin.math.pow
 
 class HandicapCalculator {
     constructor(round: Round) {
-        this.arrowCount = round.score.shotCount
+        this.arrowCount = round.shotsPerEnd * round.maxEndCount!!
         this.targetModel = round.target.model
         this.scoringStyle = round.target.getScoringStyle()
         this.targetSize = round.target.diameter

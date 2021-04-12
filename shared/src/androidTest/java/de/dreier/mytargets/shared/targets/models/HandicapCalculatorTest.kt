@@ -366,7 +366,7 @@ class HandicapCalculatorTest {
         var distance = Dimension(70f, Dimension.Unit.METER)
         var diameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var target = Target(WAFull.ID, 1,  diameter)
-        var score = Score(222, 720, 36)
+        var score = Score(222, 720)
         var round = Round(0, 0, 0, 6, 6, distance, "test", target, score )
 
         var unit = HandicapCalculator(round)
@@ -393,7 +393,7 @@ class HandicapCalculatorTest {
         var distance = Dimension(76.5529f, Dimension.Unit.YARDS)
         var diameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var target = Target(WAFull.ID, 0,  diameter)
-        var score = Score(341, 999, 72)
+        var score = Score(341, 999)
         var round = Round(0, 0, 0, 6, 12, distance, "test", target, score )
 
         var unit = HandicapCalculator(round)
@@ -410,7 +410,7 @@ class HandicapCalculatorTest {
         var distance = Dimension(70f, Dimension.Unit.METER)
         var diameter = Dimension(122f, Dimension.Unit.CENTIMETER)
         var target = Target(WAFull.ID, 0, diameter)
-        var score = Score(647, 720, 72)
+        var score = Score(647, 720)
         var round = Round(0, 0, 0, 6, 12, distance, "test", target, score)
 
         var unit = HandicapCalculator(round)
